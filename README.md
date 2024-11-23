@@ -10,11 +10,16 @@
 - **Data Analysis** to explore and visualize the dataset prior to model training.
 - **Visualizations** to evaluate model performance and data characteristics.
 
-
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Directory Structure](#directory-structure)
+- [Requirements](#requirements)
+- [License](#license)
 
 ## Installation
 
-### . Clone the repository:
+### 1. Clone the repository:
 ```bash
 git clone https://github.com/username/ganbert-text-classification.git
 cd ganbert-text-classification

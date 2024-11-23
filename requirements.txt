@@ -1,0 +1,25 @@
+# Data processing and manipulation
+pandas==2.0.2
+numpy==1.24.2
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Machine learning and deep learning
+scikit-learn==1.2.2
+tensorflow==2.12.0
+torch==2.0.0
+transformers==4.28.0
+
+# For handling tokenization and data preprocessing
+keras==2.12.0
+
+# For missing value visualization
+missingno==0.5.0
+
+# For working with datasets (if required)
+datasets==2.10.1
+
+# Optional: For any extra utilities (e.g., for text preprocessing)
+nltk==3.8.1
