@@ -18,23 +18,18 @@
 
 
 ## Running scripts
-
-
 pip install -r requirements.txt
 
-
 python scripts/train_teacher.py
-
 python scripts/train_ganbert.py
-
-
 python scripts/data_analysis.py
-
-
-
-
 ganbert-text-classification/
 
+ganbert-text-classification/
+├── data/                   # Dataset folder
+│   ├── train.csv
+│   ├── valid.csv
+│   └── test.csv
 ├── models/                 # Model architecture files
 │   ├── generator.py
 │   ├── discriminator.py
@@ -54,6 +49,7 @@ ganbert-text-classification/
 ├── requirements.txt        # Dependencies
 ├── README.md               # Project documentation
 └── main.py                 # Entry point script
+
 
 
 pip install tensorflow torch transformers pandas numpy matplotlib seaborn scikit-learn missingno datasets
