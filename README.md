@@ -15,7 +15,7 @@
 - [Usage](#usage)
 - [Directory Structure](#directory-structure)
 - [Requirements](#requirements)
-- [License](#license)
+
 
 ## Installation
 
