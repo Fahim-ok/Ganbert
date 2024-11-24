@@ -102,9 +102,4 @@ pip install -r requirements.txt
 
 ---
 
-### **How to Use This README:**
-- Save this as `README.md` in your project directory.
-- Users can view it as a guide to set up, use, and understand your project.
-
-Let me know if you need any additional changes or explanations!
 
