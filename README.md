@@ -33,6 +33,7 @@ python scripts/data_analysis.py
 
 
 
+ganbert-text-classification/
 
 ├── models/                 # Model architecture files
 │   ├── generator.py
@@ -43,12 +44,11 @@ python scripts/data_analysis.py
 │   ├── data_loader.py
 │   ├── preprocessing.py
 │   ├── metrics.py
-│   └── attention.py
-├── scripts/                # Scripts for training and analysis
+│   └── visualization.py
+├── scripts/                # Scripts for training
 │   ├── train_ganbert.py
 │   ├── train_teacher.py
-│   ├── train_student.py
-│   └── data_analysis.py  # Data analysis script
+│   └── train_student.py
 ├── notebooks/              # Jupyter notebooks for exploratory analysis
 │   └── exploratory_analysis.ipynb
 ├── requirements.txt        # Dependencies
