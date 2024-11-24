@@ -15,9 +15,9 @@
 - [Usage](#usage)
 - [Directory Structure](#directory-structure)
 - [Requirements](#requirements)
+## Scripts to run
 
-
-## Running scripts
+### Running scripts
 pip install -r requirements.txt
 
 python scripts/train_teacher.py
