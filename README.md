@@ -1,7 +1,7 @@
 # GAN-BERT for Sentiment Analysis
 
 ## Overview
-**GAN-BERT** is a hybrid model that combines Generative Adversarial Networks (GANs) with the BERT Transformer architecture for semi-supervised text classification. This repository includes scripts for training a teacher-student model using knowledge distillation, as well as visualizing data analysis and model performance. The project leverages both deep learning and traditional machine learning techniques to achieve high performance on text classification tasks.
+**GAN-BERT** is a hybrid model that combines Generative Adversarial Networks (GANs) with the BERT Transformer architecture for semi-supervised text classification. This repository includes scripts for training a teacher-student model using knowledge distillation, as well as visualizing data analysis and model performance
 
 ## Key Features
 - **Generative Adversarial Networks (GANs)** for enhanced data generation in semi-supervised learning.
