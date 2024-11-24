@@ -37,10 +37,7 @@ python scripts/data_analysis.py
 
 
 ganbert-text-classification/
-├── data/                   # Dataset folder
-│   ├── train.csv
-│   ├── valid.csv
-│   └── test.csv
+
 ├── models/                 # Model architecture files
 │   ├── generator.py
 │   ├── discriminator.py
