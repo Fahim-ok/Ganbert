@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python scripts/train_teacher.py
 python scripts/train_ganbert.py
 python scripts/data_analysis.py
-ganbert-text-classification/
+
 
 ganbert-text-classification/
 ├── data/                   # Dataset folder
@@ -31,24 +31,26 @@ ganbert-text-classification/
 │   ├── valid.csv
 │   └── test.csv
 ├── models/                 # Model architecture files
-│   ├── generator.py
-│   ├── discriminator.py
-│   ├── teacher_model.py
-│   └── student_model.py
+│   ├── generator.py        # Generator model
+│   ├── discriminator.py    # Discriminator model
+│   ├── teacher_model.py    # Teacher model (BERT-based)
+│   └── student_model.py    # Student model (LSTM/GRU-based)
 ├── utils/                  # Utility scripts
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   ├── metrics.py
-│   └── visualization.py
-├── scripts/                # Scripts for training
-│   ├── train_ganbert.py
-│   ├── train_teacher.py
-│   └── train_student.py
-├── notebooks/              # Jupyter notebooks for exploratory analysis
+│   ├── data_loader.py      # Data loading functions
+│   ├── preprocessing.py    # Text preprocessing functions
+│   ├── metrics.py          # Evaluation metrics
+│   └── attention.py        # Self-attention mechanism
+├── scripts/                # Training and analysis scripts
+│   ├── train_ganbert.py    # GAN-BERT training
+│   ├── train_teacher.py    # Teacher training
+│   ├── train_student.py    # Student training
+│   └── data_analysis.py    # Data analysis script
+├── notebooks/              # Jupyter notebooks for exploration
 │   └── exploratory_analysis.ipynb
 ├── requirements.txt        # Dependencies
 ├── README.md               # Project documentation
 └── main.py                 # Entry point script
+
 
 
 
