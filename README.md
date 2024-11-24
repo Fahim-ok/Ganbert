@@ -24,40 +24,14 @@ python scripts/train_teacher.py
 python scripts/train_ganbert.py
 python scripts/data_analysis.py
 
-# Creating the README.md file with the content provided
-readme_content = """
-# GAN-BERT for Text Classification
-
-## Overview
-**GAN-BERT** is a hybrid model that combines Generative Adversarial Networks (GANs) with the BERT Transformer architecture for semi-supervised text classification. This project integrates:
-- **Teacher Model**: A pre-trained BERT model for high-performance text classification.
-- **Student Model**: A lightweight model (LSTM or GRU) trained via knowledge distillation from the Teacher model.
-- **Generator**: A component of the GAN that generates synthetic data.
-- **Discriminator**: A component of the GAN that distinguishes between real and generated data.
-- **GAN-BERT Framework**: Combines the Teacher, Student, Generator, and Discriminator models to enhance classification performance.
-
-## Key Features
-- **Generative Adversarial Networks (GANs)**: Used for semi-supervised learning to improve model robustness.
-- **Knowledge Distillation**: Transfers knowledge from a Teacher (BERT-based) model to a Student (LSTM/GRU) model.
-- **Lightweight Student Models**: Offers efficient alternatives (LSTM/GRU) for deployment on resource-constrained devices.
-- **Adversarial Training**: Trains the Generator and Discriminator to enhance data quality for semi-supervised learning.
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Directory Structure](#directory-structure)
-- [Requirements](#requirements)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
-## Installation
 
-### 1. Clone the Repository
+
+### code structure
 ```bash
-git clone https://github.com/username/ganbert-text-classification.git
-cd ganbert-text-classification
+
 
 
 
