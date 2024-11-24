@@ -31,7 +31,8 @@ python scripts/train_ganbert.py
 python scripts/data_analysis.py
 
 
-ganbert-text-classification/
+
+
 
 ├── models/                 # Model architecture files
 │   ├── generator.py
