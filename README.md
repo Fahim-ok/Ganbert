@@ -17,12 +17,7 @@
 - [Requirements](#requirements)
 
 
-## Installation
-
-### 1. Clone the repository:
-```bash
-git clone https://github.com/username/ganbert-text-classification.git
-cd ganbert-text-classification
+## running scripts
 
 
 pip install -r requirements.txt
