@@ -17,7 +17,7 @@
 - [Requirements](#requirements)
 
 
-## running scripts
+## Running scripts
 
 
 pip install -r requirements.txt
